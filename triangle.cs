@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuiltShapesTracker
 {
+<<<<<<< HEAD
     public class Triangle : Patterns
     {
         public Triangle(string color, int sidex, int sidey, int sidez)
@@ -20,5 +21,12 @@ namespace QuiltShapesTracker
         {
             int h = (side1 + side2 + side3) / 2
         }
+=======
+    public class triangle
+    {
+        public float TriSide1 { get; set; }
+        public float TriSide2 { get; set; }
+        public float TriSide3 { get; set; }
+>>>>>>> 7acc37f047a0fb33363b4f84524ebb1e08d37440
     }
 }

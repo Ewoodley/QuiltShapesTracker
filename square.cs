@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuiltShapesTracker
 {
+<<<<<<< HEAD
     public class Square : Patterns
     {
        public Square(string color, int side)
@@ -23,4 +24,11 @@ namespace QuiltShapesTracker
     }
 
 
+=======
+    public class square
+    {
+
+        public float SquareSide { get; set; }
+    }
+>>>>>>> 7acc37f047a0fb33363b4f84524ebb1e08d37440
 }
