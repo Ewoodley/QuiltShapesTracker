@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace QuiltShapesTracker
+{
+    public class Rectangle : Patterns
+    {
+        public Rectangle( string color, int legnth, int height)
+        {
+            Name = "Rectangle Pattern";
+            Color = color;
+            side1 = legnth;
+            side2 = height;
+        }
+        public override int GetArea()
+        {
+            return side1 * side2;
+        }
+    }
+}
