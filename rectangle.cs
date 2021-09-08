@@ -9,9 +9,9 @@ namespace QuiltShapesTracker
 
     public class Rectangle : Patterns
     {
-        public Rectangle( string color, int legnth, int height)
+        public Rectangle(string color, int legnth, int height)
         {
-            Name = "Rectangle Pattern";
+            
             Color = color;
             side1 = legnth;
             side2 = height;
@@ -21,10 +21,16 @@ namespace QuiltShapesTracker
             return side1 * side2;
         }
 
-    public class rectangle
-    {
-        public float RectLegnth { get; set; }
-        public float RectHeight { get; set; }
+        public class rectangle
+        {
+            public float RectLegnth { get; set; }
+            public float RectHeight { get; set; }
 
+        }
+
+        public Rectangle()
+        {
+            Name = "Rectangle Pattern";
+        }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QuiltShapesTracker
 {
-   public abstract class Patterns
+    public abstract class Patterns
     {
-        
+
         public string Name { get; set; }
         public string Color { get; set; }
         public int side1 { get; set; }
@@ -16,4 +16,5 @@ namespace QuiltShapesTracker
         public int side3 { get; set; }
         public abstract int GetArea();
     }
+    
 }

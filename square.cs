@@ -9,9 +9,11 @@ namespace QuiltShapesTracker
 
     public class Square : Patterns
     {
-       public Square(string color, int side)
+        
+
+        public Square(string color, int side)
         {
-            Name = "Square Pattern";
+            
             Color = color;
             side1 = side;
                   
@@ -20,15 +22,12 @@ namespace QuiltShapesTracker
         {
             return side1 * side1;
         }
-        
+        public Square()
+        {
+            Name = "Square Pattern";
+        }
+
     }
-
-
-
-    public class square
-    {
-
-        public float SquareSide { get; set; }
-    }
+   
 
 }
