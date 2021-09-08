@@ -1,35 +1,33 @@
 ﻿using System;
-<<<<<<< HEAD
-using Square;
-=======
-using 
->>>>>>> 7acc37f047a0fb33363b4f84524ebb1e08d37440
+using System.Collections.Generic;
+
+
 
 namespace QuiltShapesTracker
 {
     class Program
     {
+        private List<Patterns> patterns = new List<Patterns>();
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-         
-=======
-            string square = "s";
-            string triangle = "t";
-            string rectangle = "r";
+          
 
+            var square = 1;
+            var triangle = 2;
+            var rectangle = 3;
+            
 
             Console.WriteLine("Welcome to the quilt shape tracker");
             Console.WriteLine("Please select a shape option:");
-            Console.WriteLine("s for square patterns");
-            Console.WriteLine("t for triangle patterns");
-            Console.WriteLine("r for rectangle patterns");
-
-            if(square = Console.ReadLine())
+            Console.WriteLine("1 for square patterns");
+            Console.WriteLine("2 for triangle patterns");
+            Console.WriteLine("3 for rectangle patterns");
+            Console.ReadLine();
+            while(true)        
             {
 
             }
->>>>>>> 7acc37f047a0fb33363b4f84524ebb1e08d37440
+
 
         }
     }

@@ -8,6 +8,7 @@ namespace QuiltShapesTracker
 {
    public abstract class Patterns
     {
+        
         public string Name { get; set; }
         public string Color { get; set; }
         public int side1 { get; set; }
